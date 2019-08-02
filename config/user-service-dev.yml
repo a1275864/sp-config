@@ -5,7 +5,12 @@ sp:
 spring:
   application:
     name: user-service
-    
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
+      
 server:
   port: 8101
 eureka:
@@ -24,10 +29,4 @@ management:
       exposure:
         include: refresh
         
-spring:
-  ......
-  rabbitmq:
-    host: 192.168.64.140
-    port: 5672
-    username: admin
-    password: admin
+  
