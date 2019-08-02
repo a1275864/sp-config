@@ -29,7 +29,7 @@ server:
   
 ---
 spring:
-  profiles: order2 
+  profiles: order2
   
 server:
   port: 8202
